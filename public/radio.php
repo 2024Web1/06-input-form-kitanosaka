@@ -11,7 +11,7 @@
     <h4>0J03010 坂根眞人</h4>
     <p>ラジオボタン</p>
     <?php
-    echo '<p>あなたの好きな果実は、' . $_PPOST['fruit'] . 'ですね。</p>';
+    echo '<p>あなたの好きな果実は、' . $_POST['fruit'] . 'ですね。</p>';
     ?>
     <a href='radio.html'>戻る</a>
 </body>
